@@ -1,0 +1,63 @@
+
+
+.footer {
+    background-color:#778899;
+    height: 25px;
+    text-align: center;
+   
+}
+
+.nav {
+    style: inline-block;
+    background-color:lightslategray;
+}
+
+.cheeseimage {
+    width: 800px;
+}
+
+.tomatoimage {
+    width: 400px;
+}
+
+.reservation {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.louisville{
+    float: left;
+    width: 33%;
+}
+
+.nashville {
+    float: right;
+    width: 33%;
+}
+
+.cincinnati{
+    float: left;
+    width: 33%;
+}
+
+/*Clear floats to keep columns */
+
+.locations:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+/* Media queries for small screens */
+
+@media screen and (max-width: 480px) {
+    .locations {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+}
+
+
+
